@@ -1,0 +1,3032 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+
+.bird1 {
+    position: absolute;
+    margin-left: 1200px;
+    width: 250px;
+    height: 200px;
+    margin-top: 40px;
+    animation-name: birdAnimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    animation-delay: 0.3s;
+}
+
+@keyframes birdAnimation {
+
+
+    from {
+        margin-left: 1200px;
+
+    }
+
+    to {
+        margin-left: 50px;
+    }
+
+}
+
+
+
+.bird2 {
+    position: absolute;
+    margin-left: 1200px;
+    width: 250px;
+    height: 200px;
+    margin-top: 110px;
+    animation-name: birdAnimation2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    animation-delay: 0.3s;
+}
+
+@keyframes birdAnimation2 {
+
+
+    from {
+        margin-left: 1200px;
+        margin-top: 130px;
+
+    }
+
+    to {
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stickyMenu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1500;
+    background-color: #00283A;
+}
+
+.stickyMenu2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 76px;
+    z-index: 500;
+    background-color: #00283A;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .stickyMenu2 {
+        position: relative;
+        top: 0px;
+        z-index: 0;
+        background-color: #00283A;
+    }
+
+    .bird1 {
+        display: none;
+
+    }
+
+    .bird2 {
+        display: none;
+
+    }
+}
+
+
+body {
+    background-color: #02162B;
+}
+
+
+/* Heading part :start */
+.namingSection {
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Patua One', cursive;
+}
+
+.headerBigStart {
+    background-color: #00283A;
+    border-radius: 2%;
+    margin-top: -35px;
+}
+
+.menuContent {
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.menuContentPart a {
+    text-decoration: none;
+    color: white;
+}
+
+.subHeadingTitle {
+    position: absolute;
+    margin-left: 176px;
+    margin-top: -8px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.menuContentCv {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.headerSmallContainer {
+    display: none;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .headerBigContainer {
+        display: none;
+    }
+
+    .headerSmallContainer {
+        display: block;
+    }
+
+    .namingSection {
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Patua One', cursive;
+    }
+}
+
+
+/* header small part start */
+@media (min-width: 300px) and (max-width: 575px) {
+    .myTitleSmall {
+        margin-top: 6px;
+        margin-left: 4px;
+    }
+
+    .subHeadingTitleSmall {
+        font-size: 12px;
+        margin-left: 53px;
+        margin-top: -7px;
+    }
+
+    .myOffencavSmall {
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+
+    .smallMenuList {
+        color: black;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        font-family: 'Satisfy', cursive;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .smallMenuList:hover {
+        background-color: green;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+        font-size: 21px;
+        padding: 6px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+
+}
+
+
+
+
+/*Section Start*/
+
+.backImageUpper {
+    margin-left: 70px;
+
+}
+
+.backImageUpperImg {
+    border-radius: 2%;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .backImageUpper {
+        margin-left: 0px;
+
+    }
+
+    .backImageUpperImg {
+        border-radius: 0%;
+        height: 450px;
+    }
+}
+
+
+
+/*Main Section Start*/
+
+/*My intro part left Start*/
+.myIntroLeftStart {
+    background-color: #00283A;
+    width: 330px;
+    margin-top: -393px;
+    margin-left: 200px;
+    border-radius: 3%;
+    /* box-shadow: white 0px 1px 4px, white 0px 0px 0px 3px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.myImage {
+    margin-left: 95px;
+    margin-top: 18px;
+    border: 3px solid blue;
+}
+
+.myName {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 93px;
+}
+
+
+.statusIcon {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(10, 247, 10);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -81px;
+}
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .myIntroLeftStart {
+        background-color: #00283A;
+        width: 330px;
+        margin-top: -148px;
+        margin-left: 4px;
+
+        border-radius: 3%;
+    }
+
+}
+
+
+@media (min-width: 390px) and (max-width: 430px) {
+    .myIntroLeftStart {
+        background-color: #00283A;
+        width: 330px;
+        margin-top: -148px;
+        margin-left: 20px;
+
+        border-radius: 3%;
+    }
+
+}
+
+
+/*Animation text*/
+
+.animationTextDiv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00283A;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper .static_txt {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.wrapper .dynamic_txt {
+    margin-left: -15px;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+
+    color: #fff;
+}
+
+.dynamic_txt li {
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+
+}
+
+@keyframes slide {
+    100% {
+        top: -120px;
+    }
+}
+
+.dynamic_txt li {
+    position: relative;
+}
+
+.dynamic_txt li ::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00283A;
+    border-left: 2px solid red;
+    animation: typing 3s steps(23) infinite;
+
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+
+hr {
+    border: none;
+    border-top: 2px dashed rgb(248, 244, 244);
+    color: #fff;
+    background-color: #00283A;
+    height: 1px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+
+
+
+/*socialIconDiv start*/
+
+
+.socialIconDiv {
+    margin: 12px 20px 10px 42px;
+}
+
+.socialIcon {
+    margin-left: 19px;
+
+}
+
+.socialIcon a {
+    color: #ddd;
+}
+
+.socialIcon a :hover {
+    color: green;
+    width: 30px;
+    height: 30px;
+}
+
+.mailIconDiv {
+    margin-top: -6px;
+    margin-left: 7px;
+}
+
+
+
+/*AddressDiv*/
+
+.AddressDiv {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.addressRight {
+    font-weight: 100;
+}
+
+/*ContactbuttonDiv*/
+
+
+.Contactbutton {
+    margin-left: 85px;
+    margin-bottom: 15px;
+}
+
+.contactMetext {
+    padding: 20px;
+    font-size: 17px;
+}
+
+
+/*Section right Upper Start*/
+
+.SectionRightUpper {
+    margin-left: 50px;
+    margin-top: -360px;
+    color: white;
+}
+
+.SectionRightUpperHeading1 {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.SectionRightUpperHeading2 {
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+}
+
+.vidioResume {
+
+    margin-left: 60px;
+    margin-top: 20px;
+
+
+}
+
+.vidioResumeText {
+    padding: 16px;
+
+    font-weight: 800;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .SectionRightUpper {
+        margin-left: 50px;
+        margin-top: -820px;
+        color: white;
+    }
+
+    .SectionRightUpperHeading1 {
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+        margin-left: -15px;
+    }
+
+    .SectionRightUpperHeading2 {
+        font-size: 40px;
+        font-family: 'Lobster', cursive;
+        font-weight: 800;
+        margin-left: -18px;
+    }
+
+    .vidioResume {
+
+        margin-left: 80px;
+        margin-top: 20px;
+
+
+    }
+
+
+
+}
+
+/*Work Count Section*/
+
+.workCountSectionStart {
+    color: #fff;
+    /* line-height: 10px; */
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.workCountDiv {
+    background-color: #00283A;
+    margin-right: 45px;
+    border-radius: 3%;
+
+}
+
+.workCount {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 78px;
+    margin-right: 30px;
+    font-weight: 800;
+
+}
+
+.worKCountParaDiv {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worKCountPara {
+    font-size: 16px;
+
+}
+
+.plus {
+    font-size: 29px;
+}
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .workCountSectionStart {
+        color: #fff;
+        /* line-height: 10px; */
+        margin-left: 0px;
+        margin-top: 600px;
+    }
+
+    .workCountDiv {
+        background-color: #00283A;
+        margin-right: 0px;
+        border-radius: 3%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        margin-bottom: 5px;
+    }
+
+    .workCountDiv2 {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+
+    .workCount {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 152px;
+        margin-right: 30px;
+        font-weight: 800;
+
+
+    }
+
+    .worKCountPara {
+        font-size: 21px;
+
+    }
+
+    #workCountId1 {
+        font-size: 29px;
+    }
+
+    #workCountId2 {
+        font-size: 29px;
+    }
+
+    #workCountId3 {
+        font-size: 29px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+/* About section start */
+.AllSectionHr {
+    border: none;
+    border-top: 2px dashed rgb(248, 244, 244);
+    color: #fff;
+    background-color: #00283A;
+    height: 1px;
+    width: 80%;
+    margin-left: -15px;
+    margin-top: 20px;
+
+}
+
+.aboutMeSectionContainer {
+    margin-left: 60px;
+    margin-top: 30px;
+    /* opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.5s ease-in-out; */
+}
+
+.aboutMeSectionContainerAnimDiv {
+    margin-left: 60px;
+    margin-top: 30px;
+
+    animation-name: aboutMeSectionContainerAnim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+
+
+    /* opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.5s ease-in-out; */
+}
+
+@keyframes aboutMeSectionContainerAnim {
+    from {
+        margin-left: 60px;
+        margin-top: 120px;
+
+    }
+
+    to {
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+}
+
+/* .active {
+    opacity: 1;
+    transform: scale(1);
+} */
+
+.IndexNumber {
+    margin-left: -19px;
+    background-color: aqua;
+    padding: 10px;
+    color: #02162B;
+    animation-name: indexAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes indexAnimation {
+    from {
+        background-color: aqua;
+    }
+
+    to {
+        background-color: yellowgreen;
+    }
+}
+
+.AllSectionHeading {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+}
+
+
+.aboutSectionParaContainer {
+    margin-top: 10px;
+}
+
+.aboutSectionParaDiv {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #00283A;
+    border: 2px solid white;
+
+
+
+}
+
+.aboutSectionPara {
+    color: #fff;
+    text-align: justify;
+    font-size: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.aboutSecMyimage {
+    margin-right: 15px;
+    margin-top: 20px;
+    border: 4px solid white;
+    margin-left: -13px;
+}
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .AllSectionHr {
+        border: none;
+        border-top: 2px dashed rgb(248, 244, 244);
+        color: #fff;
+        background-color: #00283A;
+        height: 1px;
+        width: 50%;
+        margin-left: 5px;
+        margin-top: 20px;
+
+    }
+
+    .aboutMeSectionContainer {
+        margin-left: 0px;
+        margin-top: 30px;
+        /* opacity: 0;
+        transform: scale(0.1);
+        transition: all 1.5s ease-in-out; */
+    }
+
+    /* .active {
+        opacity: 1;
+        transform: scale(1);
+    } */
+
+
+    .aboutMeSectionContainerAnimDiv {
+        margin-left: 0px;
+        margin-top: 30px;
+
+        animation-name: aboutMeSectionContainerAnim;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+
+
+        /* opacity: 0;
+        transform: scale(0.1);
+        transition: all 1.5s ease-in-out; */
+    }
+
+    @keyframes aboutMeSectionContainerAnim {
+        from {
+            margin-left: 0px;
+            margin-top: 55px;
+
+        }
+
+        to {
+            margin-left: 0px;
+            margin-top: 30px;
+        }
+    }
+
+    .IndexNumber {
+        margin-left: 0px;
+        background-color: aqua;
+        padding: 8px;
+        color: #02162B;
+        animation-name: indexAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    }
+
+    @keyframes indexAnimation {
+        from {
+            background-color: aqua;
+        }
+
+        to {
+            background-color: yellowgreen;
+        }
+    }
+
+    .AllSectionHeading {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Patua One', cursive;
+    }
+
+
+    .aboutSectionParaContainer {
+        margin-top: 10px;
+    }
+
+    .aboutSectionParaDiv {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        background-color: #00283A;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    }
+
+    .aboutSectionPara {
+        color: #fff;
+        text-align: justify;
+        font-size: 18px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+
+    .abouSectionParagraphStyle {
+        margin-top: 180px;
+        margin-left: -160px;
+    }
+
+    .aboutSecMyimage {
+        margin-right: 15px;
+        margin-top: 10px;
+        border: 4px solid white;
+        margin-left: -13px;
+        width: 150px;
+        height: 150px;
+
+    }
+}
+
+
+
+/*Vedio section */
+
+.vedioResumePartContainer {
+    margin-left: 60px;
+    margin-top: 50px;
+    /* opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.5s ease-in-out; */
+}
+
+/* .active {
+    opacity: 1;
+    transform: scale(1);
+} */
+
+.vedioResumeHeading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+}
+
+.VidioUnderAboutSection {
+
+    margin-top: 30px;
+
+}
+
+
+
+.myVedioModal {
+    z-index: 1500;
+    width: 1200px;
+    height: 630px;
+    margin-left: -350px;
+    margin-top: 80px;
+    background-color: #00283A;
+    color: white;
+}
+
+.myResumeVidio {
+    margin-left: 35px;
+}
+
+
+
+
+.vedioIconDiv {
+    position: absolute;
+    margin-top: -211px;
+    margin-left: 392px;
+}
+
+
+
+.video ion-icon {
+    color: #fff;
+    font-size: 50px;
+    padding: 50px;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.video ion-icon:before {
+    content: '';
+    position: absolute;
+    border: 15px solid green;
+    ;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+
+.video ion-icon:after {
+    content: '';
+    position: absolute;
+    border: 15px solid #fff;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    animation: animated 1.5s linear infinite;
+    opacity: 0;
+    animation-delay: .6s;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(.5);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes animated {
+    0% {
+        transform: scale(.5);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .vedioResumePartContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+        /* opacity: 0;
+        transform: scale(0.1);
+        transition: all 1.5s ease-in-out; */
+    }
+
+    /* .active {
+        opacity: 1;
+        transform: scale(1);
+    } */
+
+    .vedioResumeHeading {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Patua One', cursive;
+        margin-top: 6px;
+    }
+
+    .VidioUnderAboutSection {
+
+        margin-top: 30px;
+        width: 340px;
+        height: 300px;
+
+    }
+
+
+
+    .myVedioModal {
+        z-index: 3000;
+        width: 345px;
+        height: 530px;
+        margin-left: 0px;
+        margin-top: 130px;
+        background-color: #00283A;
+        color: white;
+    }
+
+    .myResumeVidio {
+        margin-left: -19px;
+        width: 350px;
+        height: 350px;
+    }
+
+
+
+
+    .vedioIconDiv {
+        position: absolute;
+        margin-top: -212px;
+        margin-left: 80px;
+    }
+
+
+
+    .video ion-icon {
+        color: #fff;
+        font-size: 50px;
+        padding: 50px;
+        background: rgba(255, 255, 255, .3);
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .video ion-icon:before {
+        content: '';
+        position: absolute;
+        border: 15px solid green;
+        ;
+        border-radius: 50%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        animation: animate 1.5s linear infinite;
+        opacity: 0;
+    }
+
+    .video ion-icon:after {
+        content: '';
+        position: absolute;
+        border: 15px solid #fff;
+        border-radius: 50%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        animation: animated 1.5s linear infinite;
+        opacity: 0;
+        animation-delay: .6s;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: scale(.5);
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1.5);
+        }
+    }
+
+    @keyframes animated {
+        0% {
+            transform: scale(.5);
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1.5);
+        }
+    }
+}
+
+
+
+@media (min-width: 390px) and (max-width: 420px) {
+
+    .vedioResumePartContainer {
+        margin-left: 12px;
+        margin-top: 50px;
+
+    }
+
+    .vedioIconDiv {
+        position: absolute;
+        margin-top: -212px;
+        margin-left: 100px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Service Section Start */
+
+.ServiceSectionContainer {
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.myServicesIcon {
+    padding: 15px;
+    background-color: #F7AF24;
+    display: inline-block;
+    margin-left: -5PX;
+    margin-bottom: 5px;
+
+}
+
+.myServices {
+    margin-right: 10px;
+    background-color: #00283A;
+    padding: 30px;
+    border-radius: 3%;
+    /* box-shadow: white 0px 12px 35px 4px; */
+    /* box-shadow: white 0px 1px 4px, white 0px 0px 0px 3px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, white 0px 1px 4px, white 0px 0px 0px 3px;
+
+}
+
+
+
+.myServicesCard {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 1.5s ease-in-out;
+}
+
+.active1 {
+    opacity: 1;
+    transform: scale(1);
+    display: block;
+}
+
+.myServicesCard5 {
+    margin-top: 19PX;
+}
+
+.myServicesCard4 {
+    margin-top: 19PX;
+}
+
+.myServicesCard3 {
+    margin-top: 19px;
+}
+
+.MyservicesDivStart {
+    margin-top: 15PX;
+}
+
+.myServicesPara p {
+    text-align: justify;
+}
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .ServiceSectionContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+
+    #myServicesCard2 {
+        margin-top: 19px;
+    }
+
+}
+
+
+
+
+
+/* Skills Section Start */
+
+.skillsSectionContainer {
+    margin-left: 60px;
+    margin-top: 70px;
+
+
+}
+
+.AllSkillsDiv {
+    margin-top: 35px;
+}
+
+.myAllskillsIcon {
+    width: 200px;
+    height: 200px;
+
+}
+
+.SkillsHeading {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+    margin-top: 6px;
+}
+
+.MyskillsHeadingDiv{
+    margin-bottom: 20px;
+}
+
+.AllSectionHrSkills {
+    border: none;
+    border-top: 2px dashed rgb(248, 244, 244);
+    color: #fff;
+    background-color: #00283A;
+    height: 1px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.myAllskillsIcon:hover {
+    animation-name: SkillIconAnimLeftRight;
+
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+
+}
+
+
+@keyframes SkillIconAnimLeftRight {
+    from {
+
+        margin-left: 50px;
+    }
+
+    to {
+
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.html5DivAnim {
+    margin-top: -118px;
+    margin-left: 98px;
+
+}
+
+.html5DivAnim:hover {
+    animation-name: circleAnimLeftRight;
+
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes circleAnimLeftRight {
+    from {
+        margin-top: -118px;
+        margin-left: 20px;
+    }
+
+    to {
+        margin-top: -118px;
+        margin-left: 98px;
+    }
+}
+
+
+
+
+.skills {
+    width: 120px;
+    height: 120px;
+    background: cornflowerblue;
+    position: relative;
+}
+
+.outer {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
+
+    box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+
+}
+
+.inner {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    /* box-shadow: inset 4px 4px 6px -1px #f9f7f7(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px #f9f7f7(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px #f9f7f7(255, 255, 255, 1),
+        0.5px 0.5px 0px #f9f7f7(0, 0, 0, 0.15),
+        0px 12px 10px -10px #f9f7f7(0, 0, 0, 0.05); */
+
+    box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#numberHtml {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberCss {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberBootstrap {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberC {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberMotion {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberWord {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberJava {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberPhp {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+#numberJs {
+    font-weight: 600px;
+    color: white;
+    font-size: 23px;
+}
+
+
+
+.htmlAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: htmlAnimation 2s linear forwards;
+}
+
+@keyframes htmlAnimation {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+.htmlAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: htmlAnimation1 2s linear forwards;
+}
+
+@keyframes htmlAnimation1 {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+
+
+.cssAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: cssAnimation 2s linear forwards;
+}
+
+@keyframes cssAnimation {
+    100% {
+        stroke-dashoffset: 94.4;
+    }
+}
+
+
+.cssAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: cssAnimation1 2s linear forwards;
+}
+
+@keyframes cssAnimation1 {
+    100% {
+        stroke-dashoffset: 94.4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.BootstrapAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: BootstrapAnimation 2s linear forwards;
+}
+
+@keyframes BootstrapAnimation {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+.BootstrapAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: BootstrapAnimation1 2s linear forwards;
+}
+
+@keyframes BootstrapAnimation1 {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+
+
+.JSAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: JSAnimation 2s linear forwards;
+}
+
+@keyframes JSAnimation {
+    100% {
+        stroke-dashoffset: 118;
+    }
+}
+
+
+.JSAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: JSAnimation1 2s linear forwards;
+}
+
+@keyframes JSAnimation1 {
+    100% {
+        stroke-dashoffset: 118;
+    }
+}
+
+
+
+
+.PhpAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: PhpAnimation 2s linear forwards;
+}
+
+@keyframes PhpAnimation {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+.PhpAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: PhpAnimation1 2s linear forwards;
+}
+
+@keyframes PhpAnimation1 {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+.JavaAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: JavaAnimation 2s linear forwards;
+}
+
+@keyframes JavaAnimation {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+.JavaAnimation1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: JavaAnimation1 2s linear forwards;
+}
+
+@keyframes JavaAnimation1 {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+.CAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: CAnimation 2s linear forwards;
+}
+
+@keyframes CAnimation {
+    100% {
+        stroke-dashoffset: 103.84;
+    }
+}
+
+
+.CAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: CAnimation1 2s linear forwards;
+}
+
+@keyframes CAnimation1 {
+    100% {
+        stroke-dashoffset: 103.84;
+    }
+}
+
+
+.MotionAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: MotionAnimation 2s linear forwards;
+}
+
+@keyframes MotionAnimation {
+    100% {
+        stroke-dashoffset: 165.2;
+    }
+}
+
+
+.MotionAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: CMotionAnimation1 2s linear forwards;
+}
+
+@keyframes MotionAnimation1 {
+    100% {
+        stroke-dashoffset: 165.2;
+    }
+}
+
+
+.WordAnimationDiv {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: WordAnimation 2s linear forwards;
+}
+
+@keyframes WordAnimation {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+.WordAnimationDiv1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: WordAnimation1 2s linear forwards;
+}
+
+@keyframes WordAnimation1 {
+    100% {
+        stroke-dashoffset: 70.8;
+    }
+}
+
+
+
+
+
+
+
+
+.skillsSvg {
+    margin-top: -188px;
+    left: 0;
+
+}
+
+
+
+
+.myAllskills {
+    background-color: #00283A;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+}
+
+.myskillsHeading {
+    color: white;
+    margin-left: 73px;
+    margin-top: -10px;
+    font-weight: bold;
+
+
+}
+
+.myskillsHeadingMotion {
+    color: white;
+    margin-left: 33px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.Myskillspara {
+    color: white;
+    margin-top: 5px;
+
+    text-align: justify;
+    padding: 15px;
+    font-weight: 400;
+}
+
+
+.skillsPrevButton {
+    margin-left: -50px;
+    font-size: 30px;
+    animation-name: SkillPrevButtonAnim;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes SkillPrevButtonAnim {
+    from {
+        margin-left: -25px;
+    }
+
+    to {
+        margin-left: -50px;
+    }
+}
+
+.skillsPrevButtonIcon {
+    color: white;
+    font-weight: 800;
+}
+
+
+
+.skillsNextButton {
+    margin-left: 180px;
+    animation-name: SkillNextButtonAnim;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes SkillNextButtonAnim {
+    from {
+        margin-left: 150px;
+    }
+
+    to {
+        margin-left: 180px;
+    }
+}
+
+
+
+
+/* Extra Skils section */
+
+.extraSkillsSectionContainer {
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.extraSkillsSmallContainer {
+    display: none;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .extraSkillsSmallContainer {
+        display: block;
+    }
+
+    .skillsSectionContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+
+    .AllSkillsDiv {
+        margin-top: 35px;
+    }
+
+    .myAllskills {
+        margin-top: 15px;
+    }
+
+    .myAllskillsIcon {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .SkillsHeading {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Patua One', cursive;
+        margin-top: 6px;
+    }
+
+    .AllSectionHrSkills {
+        border: none;
+        border-top: 2px dashed rgb(248, 244, 244);
+        color: #fff;
+        background-color: #00283A;
+        height: 1px;
+        width: 80%;
+        margin-left: 5px;
+        margin-top: 25px;
+    }
+
+    .myAllskillsIcon:hover {
+
+        animation: none;
+
+
+
+    }
+
+
+
+
+    .html5DivAnim {
+        margin-top: -118px;
+        margin-left: 98px;
+
+    }
+
+    .html5DivAnim:hover {
+        animation: none;
+    }
+
+
+
+
+
+
+    .skills {
+        width: 120px;
+        height: 120px;
+        background: cornflowerblue;
+        position: relative;
+    }
+
+    .outer {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        padding: 20px;
+        /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
+
+        box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+
+    }
+
+    .inner {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+
+        /* box-shadow: inset 4px 4px 6px -1px #f9f7f7(0, 0, 0, 0.2),
+            inset -4px -4px 6px -1px #f9f7f7(255, 255, 255, 0.7),
+            -0.5px -0.5px 0px #f9f7f7(255, 255, 255, 1),
+            0.5px 0.5px 0px #f9f7f7(0, 0, 0, 0.15),
+            0px 12px 10px -10px #f9f7f7(0, 0, 0, 0.05); */
+
+        box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    #numberHtml {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberCss {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberBootstrap {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberC {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberMotion {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberWord {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberJava {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberPhp {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberJs {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+
+
+    .htmlAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: htmlAnimation 2s linear forwards;
+    }
+
+    @keyframes htmlAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .htmlAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: htmlAnimation1 2s linear forwards;
+    }
+
+    @keyframes htmlAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+
+
+    .cssAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: cssAnimation 2s linear forwards;
+    }
+
+    @keyframes cssAnimation {
+        100% {
+            stroke-dashoffset: 94.4;
+        }
+    }
+
+
+    .cssAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: cssAnimation1 2s linear forwards;
+    }
+
+    @keyframes cssAnimation1 {
+        100% {
+            stroke-dashoffset: 94.4;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    .BootstrapAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: BootstrapAnimation 2s linear forwards;
+    }
+
+    @keyframes BootstrapAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .BootstrapAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: BootstrapAnimation1 2s linear forwards;
+    }
+
+    @keyframes BootstrapAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+
+
+    .JSAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JSAnimation 2s linear forwards;
+    }
+
+    @keyframes JSAnimation {
+        100% {
+            stroke-dashoffset: 118;
+        }
+    }
+
+
+    .JSAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JSAnimation1 2s linear forwards;
+    }
+
+    @keyframes JSAnimation1 {
+        100% {
+            stroke-dashoffset: 118;
+        }
+    }
+
+
+
+
+    .PhpAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: PhpAnimation 2s linear forwards;
+    }
+
+    @keyframes PhpAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .PhpAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: PhpAnimation1 2s linear forwards;
+    }
+
+    @keyframes PhpAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .JavaAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JavaAnimation 2s linear forwards;
+    }
+
+    @keyframes JavaAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .JavaAnimation1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JavaAnimation1 2s linear forwards;
+    }
+
+    @keyframes JavaAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .CAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: CAnimation 2s linear forwards;
+    }
+
+    @keyframes CAnimation {
+        100% {
+            stroke-dashoffset: 103.84;
+        }
+    }
+
+
+    .CAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: CAnimation1 2s linear forwards;
+    }
+
+    @keyframes CAnimation1 {
+        100% {
+            stroke-dashoffset: 103.84;
+        }
+    }
+
+
+    .MotionAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: MotionAnimation 2s linear forwards;
+    }
+
+    @keyframes MotionAnimation {
+        100% {
+            stroke-dashoffset: 165.2;
+        }
+    }
+
+
+    .MotionAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: CMotionAnimation1 2s linear forwards;
+    }
+
+    @keyframes MotionAnimation1 {
+        100% {
+            stroke-dashoffset: 165.2;
+        }
+    }
+
+
+    .WordAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: WordAnimation 2s linear forwards;
+    }
+
+    @keyframes WordAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .WordAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: WordAnimation1 2s linear forwards;
+    }
+
+    @keyframes WordAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+
+
+
+
+
+
+    .skillsSvg {
+        margin-top: -188px;
+        left: 0;
+
+    }
+
+
+
+
+    .myAllskills {
+        background-color: #00283A;
+        border-radius: 2%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+    }
+
+    .myskillsHeading {
+        color: white;
+        margin-left: 73px;
+        margin-top: -10px;
+        font-weight: bold;
+
+
+    }
+
+    .myskillsHeadingMotion {
+        color: white;
+        margin-left: 33px;
+        margin-top: -10px;
+        font-weight: bold;
+    }
+
+    .Myskillspara {
+        color: white;
+        margin-top: 5px;
+
+        text-align: justify;
+        padding: 15px;
+        font-weight: 400;
+    }
+
+
+    .skillsPrevButton {
+        margin-left: -10px;
+        font-size: 30px;
+    }
+
+    .skillsPrevButtonIcon {
+        color: white;
+        font-weight: 800;
+    }
+
+    .skillsNextButton {
+        margin-left: 23px;
+
+    }
+
+
+
+
+
+    /* Extra Skils section */
+
+    .extraSkillsSectionContainer {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: none;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+/*Portfolio Section Start*/
+
+.MyallPortfolio {
+    padding: 75px;
+    background-color: #002738;
+
+    border-radius: 2%;
+    /* border: 2px solid white; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+
+}
+
+
+.portfolioSectionContainer {
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.PortfolioHeading {
+    color: white;
+    font-size: 24px;
+    margin-top: -9px;
+    margin-bottom: 50px;
+}
+
+.myAllPortfolioImgFront {
+    width: 300px;
+    height: 150px;
+    border-radius: 2%;
+    box-shadow: white 0px 1px 4px, white 0px 0px 0px 3px;
+    /* animation-name: portfolioImageAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1); */
+
+
+
+}
+
+/* @keyframes portfolioImageAnim {
+    from {
+        box-shadow: none;
+    }
+
+    to {
+        box-shadow: white 0px 1px 4px, white 0px 0px 0px 3px;
+    }
+} */
+
+#portfolioHideDivId1 {
+    width: 300px;
+    height: 150px;
+
+    opacity: 0.4;
+    margin-top: -150px;
+    display: block;
+    align-items: center;
+    background-color: black;
+
+}
+
+/* .portfolioHideDivIdContent{
+    
+    color: black;
+    font-weight: 800;
+} */
+
+.portfolioHideDivIdContentHeading {
+    color: black;
+    font-weight: 600;
+    font-size: 23px;
+    margin-left: 60px;
+    margin-top: 50px;
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.portfolioHideDivIdContentHeading2 {
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.portfolioHideDivIdContentIcon {
+    color: white;
+    font-size: 25px;
+    margin-top: -106px;
+    margin-left: 80px;
+    font-weight: 600;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    animation-name: portfolioHideDivIdContentIconAnim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+
+}
+
+
+@keyframes portfolioHideDivIdContentIconAnim {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        color: white;
+
+    }
+}
+
+.MyallPortfolio1 {
+    margin-right: 145px;
+    margin-bottom: 15px;
+
+}
+
+.MyallPortfolio2 {
+    margin-bottom: 15px;
+
+}
+
+.MyallPortfolio3 {
+    margin-right: 145px;
+    margin-bottom: 15px;
+}
+
+.MyallPortfolio4 {
+    margin-bottom: 15px;
+}
+
+.MyallPortfolio5 {
+    margin-right: 145px;
+    margin-bottom: 15px;
+}
+
+.MyallPortfolio6 {
+    margin-right: 35px;
+}
+
+.websiteImage {
+    width: 1150px;
+    height: 400px;
+}
+
+
+.javaVidio {
+    width: 1164px;
+    height: 400px;
+}
+
+
+.myModalPortfolio1 {
+    width: 1200px;
+    height: 570px;
+    margin-left: -350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    z-index: 1200;
+    margin-top: 100px;
+
+}
+
+.myPortfolioModalTitle {
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.myAllPortfolioImgFrontAnimDiv1 {
+    animation-name: myAllPortfolioImgFrontAnim1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes myAllPortfolioImgFrontAnim1 {
+    from {
+        margin-left: -150px;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+
+
+    /* from {
+        margin-bottom: 160px;
+    }
+
+    to {
+        margin-bottom: 0px;
+    } */
+}
+
+
+.myAllPortfolioImgFrontAnimDiv3 {
+    animation-name: myAllPortfolioImgFrontAnim3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes myAllPortfolioImgFrontAnim3 {
+    from {
+        margin-left: 250px;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+
+
+
+    /* from {
+        margin-bottom: 160px;
+    }
+
+    to {
+        margin-bottom: 0px;
+    } */
+}
+
+
+
+.myAllPortfolioImgFrontAnimDiv4 {
+    animation-name: myAllPortfolioImgFrontAnim4;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes myAllPortfolioImgFrontAnim4 {
+    from {
+        margin-right: -290px;
+    }
+
+    to {
+        margin-right: 0px;
+    }
+
+
+    /* from {
+        
+        opacity: 0;
+    }
+
+    to {
+        
+        opacity: 1;
+    } */
+}
+
+
+.myAllPortfolioImgFrontAnimDiv5 {
+    animation-name: myAllPortfolioImgFrontAnim5;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes myAllPortfolioImgFrontAnim5 {
+    from {
+        margin-left: -150px;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+
+
+    /* from {
+        margin-bottom: 160px;
+    }
+
+    to {
+        margin-bottom: 0px;
+    } */
+}
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .portfolioSectionContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .MyallPortfolio {
+        padding: 0px;
+        margin-left: 8px;
+        margin-top: 20px;
+        border: none;
+        box-shadow: none;
+        background-color: #02162B;
+    }
+
+    .javaVidio {
+        width: 100%;
+        height: 290px;
+    }
+
+    .myModalPortfolio1 {
+        width: 100%;
+        height: 560px;
+        margin-left: -2px;
+        margin-top: 100px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        z-index: 2000;
+
+    }
+
+    .websiteImage {
+        width: 100%;
+        height: 290px;
+    }
+}
+
+
+
+
+@media (min-width: 390px) and (max-width: 420px) {
+
+
+    .MyallPortfolio {
+        padding: 0px;
+        margin-left: 21px;
+        margin-top: 20px;
+        border: none;
+        box-shadow: none;
+        background-color: #02162B;
+    }
+
+}
+
+
+
+
+
+/* certificationSection :start */
+
+.certificationSectionContainer {
+    margin-left: 60px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.myCertication {
+    margin-top: 50px;
+
+}
+
+.myCerticateImage {
+    height: 400px;
+    border-radius: 2%;
+}
+
+
+
+
+
+.CertificatePrevButtonIcon {
+    color: black;
+    font-weight: 800;
+}
+
+.CertificateNextButtonIcon {
+    color: black;
+    font-weight: 800;
+}
+
+
+.certificationPrevButton {
+    margin-left: -50px;
+    font-size: 30px;
+    animation-name: certificationPrevButtonAnim;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes certificationPrevButtonAnim {
+    from {
+        margin-left: -25px;
+    }
+
+    to {
+        margin-left: -50px;
+    }
+}
+
+
+
+
+.CertificateNextButtonIcon {
+    margin-left: 70px;
+    animation-name: CertificateNextButtonIconAnim;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes CertificateNextButtonIconAnim {
+    from {
+        margin-left: 70px;
+    }
+
+    to {
+        margin-left: 120px;
+    }
+}
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .certificationSectionContainer {
+        margin-left: 0px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .myCertication {
+        margin-top: 50px;
+
+    }
+
+    .myCerticateImage {
+        height: 400px;
+        border-radius: 2%;
+    }
+
+    /* .CertificatePrevButtonIcon {
+        color: black;
+        font-weight: 800;
+    } */
+
+    /* .CertificateNextButtonIcon {
+        color: black;
+        font-weight: 800;
+    } */
+
+    .CertificateNextButtonIcon {
+        margin-left: -2px;
+        margin-top: 50px;
+        animation: none;
+        color: black;
+        font-weight: 800;
+        /* animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1); */
+    }
+
+    /* 
+    @keyframes CertificateNextButtonIconAnim {
+        from {
+            margin-left: -30px;
+        }
+
+        to {
+            margin-left: 0px;
+        }
+    } */
+
+
+    .certificationPrevButton {
+        margin-left: 2px;
+        margin-top: 50px;
+        /* font-size: 30px; */
+        animation: none;
+
+
+
+        color: black;
+        font-weight: 800;
+        /* 
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1); */
+    }
+
+    /* @keyframes certificationPrevButtonAnim {
+        from {
+            margin-left: 15px;
+        }
+
+        to {
+            margin-left: 0px;
+        }
+    } */
+
+
+
+
+}
+
+
+
+
+
+/* Contact Me Section Start */
+
+
+.contactMeSectionContainer {
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.myContactDiV {
+    margin-top: 20px;
+}
+
+.callDiv {
+    background-color: #002738;
+    padding: 55px;
+    border-radius: 2%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.contactIconAll {
+    color: #ddd;
+    margin-bottom: 25px;
+}
+
+.contactHeadingAll {
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+
+.contactMePara1 {
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+.contactMePara2 {
+    color: white;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.contactMeParaFacebook {
+    color: white;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+
+
+
+
+.myContactFormLabel {
+    color: white;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.myContactSubmitForm {
+    margin-top: 25px;
+}
+
+.myContactForm {
+    padding: 30px;
+    background-color: #002738;
+    border-radius: 2%;
+}
+
+.myContacttooltipsPara {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.tooltipsHeading {
+    font-size: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+
+    .contactMeSectionContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+
+}
+
+
+
+
+/* Footer Section Start */
+
+.footerSectionContainer {
+    margin-top: 50px;
+
+}
+
+.footerSectionStart {
+    color: white;
+    background-color: #00283A;
+    padding: 15px;
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .footerSectionContainer {
+        margin-top: 50px;
+
+    }
+
+    .footerSectionStart {
+        color: white;
+        background-color: #00283A;
+        padding: 12px;
+    }
+
+    .footerText{
+        font-size: 13px;
+    }
+
+    .footerImg{
+        margin-left: 38px;
+    }
+
+}
